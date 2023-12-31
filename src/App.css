@@ -1,4 +1,12 @@
-  
+#mine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 #hello {
     display: flex; /* Add this to make #hello a flex container */
     flex-direction: column; /* Align children (like <p> tags) vertically */
