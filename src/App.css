@@ -1,26 +1,24 @@
-#mine {
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh; /* This will take the full height of the viewport */
     text-align: center;
-}
-
-
-
-#hello {
-    display: flex; /* Add this to make #hello a flex container */
-    flex-direction: column; /* Align children (like <p> tags) vertically */
-    justify-content: center; /* Center children vertically */
-    align-items: center; /* Center children horizontally */
+  }
+  
+  #mine {
+    margin-bottom: 20px; /* Add some space between #mine and #hello */
+  }
+  
+  #hello {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     color: #333;
-    text-align: center; /* Change to center if you want the text itself to be centered */
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #f9f9f9;
-    /* Add a fixed width or max-width if you want to control the width of the #hello div */
-    max-width: 600px; /* Example: max-width */
-    width: 100%; /* Example: fixed width */
+    max-width: 600px;
+    width: 100%;
   }
